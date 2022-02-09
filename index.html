@@ -1,13 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://lunar-ui.netlify.app/style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <title>LunarStore</title>
 </head>
+
 <body>
-    
+  <div class="home-container flex-col">
+    <nav class="home-nav">
+      <div class="navigation-box">
+        <div class="logo-box">Logo<span class="color-primary">UI</span></div>
+        <div class="menu-box">
+          <ul class="menu-list no-bullets ">
+            <li class="menu-item bold-1">
+              <a href=""> Home</a>
+
+            </li>
+            <li class="menu-item bold-1">
+              <a href=""> Shop</a>
+
+            </li>
+          </ul>
+        </div>
+        <div class="nav-search">
+          <div class="input-box">
+            <i class="fa fa-search input__box-icon"></i>
+            <input type="text" class="basic-input input-rounded" placeholder="Input with an icon" />
+          </div>
+
+        </div>
+        <div class="nav-list">
+          <ul class="no-bullets nav-ul">
+            <li class="nav-child">
+              <i class="fas fa-user"></i>
+              <a href=""> User</a>
+            </li>
+            <li class="nav-child">
+              <i class="fas fa-heart"></i>
+
+              <a href="">Wishlist</a>
+            </li>
+            <li class="nav-child">
+              <i class="fas fa-shopping-cart"></i>
+
+              <a href="">Cart</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-ham">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+
+    </nav>
+    <section class="home-catog flex-col">
+      <h3 class="heading-4 bold-2">Shop By Category</h3>
+      <div class="flex-row catog-cont">
+
+        <div class="catog-box">
+          <img src="./src/bottoms.png" alt="" class="responsive-img">
+          <div class="overlay">
+            <div class="overlay-text">Bottoms</div>
+          </div>
+  
+        </div>
+        <div class="catog-box">
+          <img src="./src/tee.png" alt="" class="responsive-img">
+          <div class="overlay">
+            <div class="overlay-text">Tshirts</div>
+          </div>
+        </div>
+        <div class="catog-box">
+          <img src="./src/shirts.png" alt="" class="responsive-img">
+          <div class="overlay">
+            <div class="overlay-text">Shirts</div>
+          </div>
+  
+        </div>
+        <div class="catog-box">
+          <img src="./src/outerwear.png" alt="" class="responsive-img">
+          <div class="overlay">
+            <div class="overlay-text">Jackets</div>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+    <section class="hero"></section>
+
+  </div>
 </body>
+
 </html>

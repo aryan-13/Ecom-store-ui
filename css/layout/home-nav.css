@@ -1,0 +1,16 @@
+
+.home-nav{
+    font-size:1.7rem;
+    width:100wh;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+.navigation-box{
+    padding: var(--size-4);
+    /* background-color: var(--color-primary); */
+    color: var(--color-black);
+}
+.nav-child:hover,.menu-item:hover{
+    color: var(--color-primary);
+}
