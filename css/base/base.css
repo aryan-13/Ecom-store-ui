@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans&family=Outfit:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-	/* --color-primary: #55c57a; */
-	/* --color-primary: #5271ff;
-	--color-primary-light: #52b9ff;
-	--color-primary-dark: #2703A7; */
 
+	--color-primary-light: #7ed56f;
 	--color-primary: #55c57a;
---color-primary-light: #7ed56f;
---color-primary-dark: #28b485;
+	--color-primary-dark: #28b485;
 
-	/* ALerts */
 	--color-red: #fed7d7;
 	--color-red-dark: #e53e3e;
 
 	--color-green: #c6f6d5;
 	--color-green-dark: #38a169;
-  --color-green-darker:#009144;
+	--color-green-darker: #009144;
 
 	--color-blue: #bee3f8;
 	--color-blue-dark: #3182ce;
@@ -28,7 +23,7 @@
 
 	--color-secondary-light: #ffb900;
 	--color-secondary-dark: #ff7730;
-  
+
 	--color-tertiary-light: #2998ff;
 	--color-tertiary-dark: #5643fa;
 
@@ -54,41 +49,62 @@
 	--size-9: 9rem;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
+
 * {
-  margin: 0;
+	margin: 0;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
-html, body {
-  height: 100%;
-  font-size: 62.5%;
+
+html,
+body {
+	height: 100%;
+	font-size: 62.5%;
+	padding: 0 var(--size-1);
 }
 
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
 }
 
 
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
 }
 
-input, button, textarea, select {
-  font: inherit;
+input,
+button,
+textarea,
+select {
+	font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
 }
 
-#root, #__next {
-  isolation: isolate;
+#root,
+#__next {
+	isolation: isolate;
 }

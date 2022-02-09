@@ -1,5 +1,7 @@
 @import url(./css/base/base.css);
 @import url(./css/base/utils.css);
 @import url(./css/layout/home-nav.css);
+@import url(./css/layout/hero.css);
 @import url(./css/layout/catogs.css);
+
 @import url(./css/pages/home.css);

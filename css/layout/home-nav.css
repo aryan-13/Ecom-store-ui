@@ -2,9 +2,9 @@
 .home-nav{
     font-size:1.7rem;
     width:100wh;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
+    opacity: 0.9;
+   background-color: var(--color-primary);
+
 }
 .navigation-box{
     padding: var(--size-4);

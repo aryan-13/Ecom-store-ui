@@ -1,0 +1,12 @@
+.hero{
+   background-color: var(--color-primary);
+}
+.hero-img {
+    width: 100wh;
+}
+.hero-1{
+    flex: 3;
+}
+.hero-2{
+    flex: 1;
+}
