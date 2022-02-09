@@ -1,7 +1,6 @@
 .home-catog{
 align-items: center;
 padding: var(--size-1) 0 0 0;
-background-color: var(--color-white);
 }
 
 .catog-box{
@@ -33,14 +32,16 @@ background-color: var(--color-white);
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: var(--color-white);
+    background-color: var(--color-grey-light-2);
   }
   .catog-cont{
     justify-content: space-around;
     width: 100%;
+    flex-wrap: wrap;
     }
   .catog-box:hover .overlay {
     opacity: .85;
     cursor: pointer;
     color: var(--color-black);
   }
+  

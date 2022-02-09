@@ -11,6 +11,27 @@
     /* background-color: var(--color-primary); */
     color: var(--color-black);
 }
-.nav-child:hover,.menu-item:hover{
+
+.logo-box{
+    font-family: 'Rowdies', cursive;
+    font-size: 5rem;
+    position: relative;
+   
+}
+.logo-secondary{
+    font-size: var(--size-2);
+position: absolute;
+right: 0;
+bottom: -.5rem;
+}
+.logo-primary{
+    border-top: 3px solid var(--color-primary);
+
+}
+.btn-tertiary-icon{
+    padding: 0;
+    margin: 0;
+}
+.nav-child:hover,.menu-item:hover, .btn-tertiary-icon:hover{
     color: var(--color-primary);
 }
