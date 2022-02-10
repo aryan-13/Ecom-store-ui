@@ -1,37 +1,42 @@
-
-.home-nav{
-    font-size:1.7rem;
-    width:100wh;
+.home-nav {
+    font-size: 1.7rem;
+    width: 100wh;
     opacity: 0.9;
-   background-color: var(--color-primary);
+    background-color: var(--color-primary);
 
 }
-.navigation-box{
+
+.navigation-box {
     padding: var(--size-4);
-    /* background-color: var(--color-primary); */
     color: var(--color-black);
 }
 
-.logo-box{
+.logo-box {
     font-family: 'Rowdies', cursive;
     font-size: 5rem;
     position: relative;
-   
+
 }
-.logo-secondary{
+
+.logo-secondary {
     font-size: var(--size-2);
-position: absolute;
-right: 0;
-bottom: -.5rem;
+    position: absolute;
+    right: 0;
+    bottom: -.5rem;
 }
-.logo-primary{
+
+.logo-primary {
     border-top: 3px solid var(--color-primary);
 
 }
-.btn-tertiary-icon{
+
+.btn-tertiary-icon {
     padding: 0;
     margin: 0;
 }
-.nav-child:hover,.menu-item:hover, .btn-tertiary-icon:hover{
+
+.nav-child:hover,
+.menu-item:hover,
+.btn-tertiary-icon:hover {
     color: var(--color-primary);
 }
