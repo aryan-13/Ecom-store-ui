@@ -1,13 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://lunar-ui.netlify.app/component.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <title>LunarStore</title>
 </head>
+
 <body>
-    
+  <div class="home-container flex-col">
+    <nav class="home-nav">
+      <div class="navigation-box">
+        <div class="logo-box"><span class="logo-primary">Lunar</span> <span
+            class="color-primary logo-secondary">Store</span></div>
+        <div class="menu-box">
+          <ul class="menu-list no-bullets ">
+            <li class="menu-item bold-1">
+              <a href=""> Home</a>
+
+            </li>
+            <li class="menu-item bold-1">
+              <a href=""> Shop</a>
+
+            </li>
+          </ul>
+        </div>
+        <div class="nav-search">
+          <div class="input-box">
+            <i class="fa fa-search input__box-icon"></i>
+            <input type="text" class="basic-input " placeholder="Input with an icon" />
+          </div>
+
+        </div>
+        <div class="nav-list">
+          <ul class="no-bullets nav-ul">
+            <li class="nav-child">
+
+              <a href="" class="btn btn-tertiary-icon"> <i class="fas fa-user"></i></a>
+
+            </li>
+            <li class="nav-child">
+
+              <a href="" class="btn btn-tertiary-icon"> <i class="fas fa-heart"></i></a>
+
+              <!-- <a href="">Wishlist</a> -->
+            </li>
+            <li class="nav-child">
+
+              <a href="" class="btn btn-tertiary-icon"><i class="fas fa-shopping-cart"></i></a>
+              <!-- <a href="">Cart</a> -->
+            </li>
+          </ul>
+        </div>
+        <div class="nav-ham">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+
+    </nav>
+    <section class="hero">
+      <div class=" hero-img ">
+        <img src="./src/hero3.jfif" alt="" class="responsive-img hero-1">
+        <img src="./src/hero1.jfif" alt="" class="responsive-img hero-2">
+
+      </div>
+    </section>
+    <section class="offers">
+      <div class="flex-col offers-cont ">
+        <h1 class="heading-4 bold-1">Members get upto extra 20% off on all products!</h1>
+        <div class="offer-cta flex-row">
+          <a href="" class="btn btn-primary btn-md">Register Here</a>
+          <a href="" class="btn btn-primary btn-md">Login Now</a>
+        </div>
+      </div>
+    </section>
+    <section class="flex-col home-catog ">
+      <h3 class="heading-4 bold-3">Shop <span class="color-primary">By</span> Category</h3>
+      <div class="flex-row catog-cont">
+
+        <div class="catog-box">
+          <img src="./src/bottoms.png" alt="" class="responsive-img">
+          <div class="overlay">
+            <div class="overlay-text">Bottoms</div>
+          </div>
+
+        </div>
+        <div class="catog-box">
+          <img src="./src/tee.png" alt="" class="responsive-img">
+          <div class="overlay">
+            <div class="overlay-text">Tshirts</div>
+          </div>
+        </div>
+        <div class="catog-box">
+          <img src="./src/shirts.png" alt="" class="responsive-img">
+          <div class="overlay">
+            <div class="overlay-text">Shirts</div>
+          </div>
+
+        </div>
+        <div class="catog-box">
+          <img src="./src/outerwear.png" alt="" class="responsive-img">
+          <div class="overlay">
+            <div class="overlay-text">Jackets</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <footer class=" flex-col footer">
+      <div class="footer__text-box">
+        Made with <span class="color-primary">&lt;/&gt;</span> by Aryan
+        Chaudhary
+      </div>
+      <div class="footer__icons-box">
+        <i class="footer__items footer__items-icons fab fa-github"></i>
+        <i class="footer__items footer__items-icons fab fa-twitter"></i>
+        <i class="footer__items footer__items-icons fab fa-linkedin"></i>
+      </div>
+      <div class="footer__copyright-box">
+        &copy; 2021 Lunar<span class="color-primary">UI</span>
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>
