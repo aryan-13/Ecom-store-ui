@@ -1,6 +1,7 @@
 .home-nav {
     font-size: 1.7rem;
-    width: 100wh;
+    width: 100%;
+    overflow: hidden;
     opacity: 0.9;
     background-color: var(--color-primary);
     box-shadow: 0px 5px 8px 0px rgba(128, 120, 120, 0.35);
