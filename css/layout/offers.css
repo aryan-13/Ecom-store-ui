@@ -11,7 +11,7 @@ heading-4 {
     margin: var(--size-3);
 }
 
-.btn-primary {
+.offer-cta > .btn-primary {
     color: var(--color-primary-light);
     background-color: white;
 }
