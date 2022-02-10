@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     background-color: var(--color-grey-light-2);
-    /* background-color: blanchedalmond; */
     padding: var(--size-2);
     width: 60%;
     height: 100vh;
