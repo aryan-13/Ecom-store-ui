@@ -1,3 +1,4 @@
+/* Login Container */
 .login-cont {
     padding: 3rem 8rem;
     display: flex;
@@ -11,13 +12,12 @@
     font-size: 2rem;
     row-gap: 2rem;
 }
-
+/* Container for input fields */
 .login-input {
     display: flex;
     flex-direction: column;
-
 }
-
+/* BUTTON STYLES */
 .btn-3 {
     padding: 1rem 4rem;
     display: flex;
@@ -33,13 +33,12 @@
     width: 100%;
     justify-content: space-between;
 }
-
+/* INPUT LABELS */
 .input-labels {
     font-size: 2rem;
     color: var(--color-grey-dark);
-
 }
-
+/* INPUT FIELDS */
 .login-fields {
     padding: 6px 20px;
     margin: 8px 0;
@@ -55,7 +54,7 @@
     outline: none;
 
 }
-
+/* HEADER FOR TOGGLE B/W LOGIN and REGISTRATION */
 .reg-log {
     display: flex;
     column-gap: 5px
