@@ -2,338 +2,344 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://lunar-ui.netlify.app/component.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-    <title>LunarStore</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://lunar-ui.netlify.app/component.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <title>LunarStore</title>
 </head>
 
 <body>
-    <div class="home-container flex-col">
-        <!-- NAVIGATION BAR -->
-        <nav class="home-nav">
-            <div class="navigation-box">
-                <div class="logo-box"><span class="logo-primary">Lunar</span> <span
-                        class="color-primary logo-secondary">Store</span></div>
-                <div class="menu-box">
-                    <ul class="menu-list no-bullets ">
-                        <li class="menu-item bold-1">
-                            <a href="./index.html"> Home</a>
+  <div class="home-container flex-col">
+    <!-- NAVIGATION BAR -->
+    <nav class="home-nav">
+      <div class="navigation-box">
+        <a href="./index.html">
+          <div class="logo-box"><span class="logo-primary">Lunar</span> <span
+              class="color-primary logo-secondary">Store</span></div>
+        </a>
+        <div class="menu-box">
+          <ul class="menu-list no-bullets ">
+            <li class="menu-item bold-1">
+              <a href="./index.html"> Home</a>
 
-                        </li>
-                        <li class="menu-item bold-1">
-                            <a href="./product-listing.html"> Shop</a>
+            </li>
+            <li class="menu-item bold-1">
+              <a href="./product-listing.html"> Shop</a>
 
-                        </li>
-                    </ul>
-                </div>
-                <div class="nav-search">
-                    <div class="input-box">
-                        <i class="fa fa-search input__box-icon"></i>
-                        <input type="text" class="basic-input " placeholder="Input with an icon" />
-                    </div>
-
-                </div>
-                <div class="nav-list">
-                    <ul class="no-bullets nav-ul">
-                        <li class="nav-child">
-
-                            <a href="" class="btn btn-tertiary-icon"> <i class="fas fa-user"></i></a>
-
-                        </li>
-                        <li class="nav-child">
-
-                            <a href="" class="btn btn-tertiary-icon"> <i class="fas fa-heart"></i></a>
-
-                        </li>
-                        <li class="nav-child">
-
-                            <a href="" class="btn btn-tertiary-icon"><i class="fas fa-shopping-cart"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="nav-ham">
-                    <i class="fa fa-bars"></i>
-                </div>
-            </div>
-
-        </nav>
-        <!-- FILTER BAR -->
-        <div class="flex-row prod-filter-container">
-            <div class="filter-bar">
-                <div class="flex-row filter-header">
-                    <h4 class="heading-5 bold-2">Filters</h4>
-                    <button class="btn-2 btn-underlined">Clear all</button>
-                </div>
-                <hr>
-                <div class="u-margin-bottom-small"></div>
-    
-                <div class="filter-price">
-                    <p class="p-md">Price</p>
-                <div class="u-margin-bottom-small"></div>
-                <div class="u-margin-bottom-small"></div>
-    
-                    <label class="radio-list">One
-                        <input type="radio" checked="checked" name="radio">
-                        <span class="radio"></span>
-                    </label>
-                    <label class="radio-list">Two
-                        <input type="radio" name="radio">
-                        <span class="radio"></span>
-                    </label>
-    
-                </div>
-                <hr>
-                <div class="u-margin-bottom-small"></div>
-    
-                <div class="filter-category">
-                    <p class="p-md">Category</p>
-                <div class="u-margin-bottom-small"></div>
-                <div class="u-margin-bottom-small"></div>
-    
-                    <label class="check-list">Jeans
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="check-list">Tshirts
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="check-list">Shirts
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="check-list">Jackets
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                </div>
-                <hr>
-                <div class="u-margin-bottom-small"></div>
-    
-                <div class="filter-rating">
-                    <p class="p-md">Rating</p>
-                <div class="u-margin-bottom-small"></div>
-                <div class="u-margin-bottom-small"></div>
-    
-                    <label class="check-list">4 star & above
-                        <input type="checkbox" checked="checked">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="check-list">3 star & above
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="check-list">2 star & above
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="check-list">1 star & above
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                </div>
-            </div>
-            <section class="flex-row product-section ">
-                <div class="vertical-card">
-                    <div class="card-img">
-                      <img src="./src/p1.jfif" alt="" />
-                    </div>
-                    <div class="card-text">
-                      <h3 class="card-title">Green Tea Face Serum</h3>
-                      <div class="card-price">
-                        ₹100 <span class="card-price-striked">₹100</span>
-                      </div>
-                    </div>
-                    <div class="card-btn">
-                      <div class="button-box">
-                        <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
-                        <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
-                      </div>
-                      <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
-                    </div>
-                  </div>
-                  <div class="vertical-card">
-                    <div class="card-img">
-                      <img src="./src/p1.jfif" alt="" />
-                    </div>
-                    <div class="card-text">
-                      <h3 class="card-title">Green Tea Face Serum</h3>
-                      <div class="card-price">
-                        ₹100 <span class="card-price-striked">₹100</span>
-                      </div>
-                    </div>
-                    <div class="card-btn">
-                      <div class="button-box">
-                        <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
-                        <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
-                      </div>
-                      <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
-                    </div>
-                  </div>
-                  <div class="vertical-card">
-                    <div class="card-img">
-                      <img src="./src/p1.jfif" alt="" />
-                    </div>
-                    <div class="card-text">
-                      <h3 class="card-title">Green Tea Face Serum</h3>
-                      <div class="card-price">
-                        ₹100 <span class="card-price-striked">₹100</span>
-                      </div>
-                    </div>
-                    <div class="card-btn">
-                      <div class="button-box">
-                        <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
-                        <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
-                      </div>
-                      <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
-                    </div>
-                  </div>
-                  <div class="vertical-card">
-                    <div class="card-img">
-                      <img src="./src/p1.jfif" alt="" />
-                    </div>
-                    <div class="card-text">
-                      <h3 class="card-title">Green Tea Face Serum</h3>
-                      <div class="card-price">
-                        ₹100 <span class="card-price-striked">₹100</span>
-                      </div>
-                    </div>
-                    <div class="card-btn">
-                      <div class="button-box">
-                        <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
-                        <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
-                      </div>
-                      <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
-                    </div>
-                  </div>
-                  <div class="vertical-card">
-                    <div class="card-img">
-                      <img src="./src/p1.jfif" alt="" />
-                    </div>
-                    <div class="card-text">
-                      <h3 class="card-title">Green Tea Face Serum</h3>
-                      <div class="card-price">
-                        ₹100 <span class="card-price-striked">₹100</span>
-                      </div>
-                    </div>
-                    <div class="card-btn">
-                      <div class="button-box">
-                        <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
-                        <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
-                      </div>
-                      <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
-                    </div>
-                  </div>
-                  <div class="vertical-card">
-                    <div class="card-img">
-                      <img src="./src/p1.jfif" alt="" />
-                    </div>
-                    <div class="card-text">
-                      <h3 class="card-title">Green Tea Face Serum</h3>
-                      <div class="card-price">
-                        ₹100 <span class="card-price-striked">₹100</span>
-                      </div>
-                    </div>
-                    <div class="card-btn">
-                      <div class="button-box">
-                        <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
-                        <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
-                      </div>
-                      <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
-                    </div>
-                  </div> <div class="vertical-card">
-                    <div class="card-img">
-                      <img src="./src/p1.jfif" alt="" />
-                    </div>
-                    <div class="card-text">
-                      <h3 class="card-title">Green Tea Face Serum</h3>
-                      <div class="card-price">
-                        ₹100 <span class="card-price-striked">₹100</span>
-                      </div>
-                    </div>
-                    <div class="card-btn">
-                      <div class="button-box">
-                        <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
-                        <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
-                      </div>
-                      <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
-                    </div>
-                  </div> <div class="vertical-card">
-                    <div class="card-img">
-                      <img src="./src/p1.jfif" alt="" />
-                    </div>
-                    <div class="card-text">
-                      <h3 class="card-title">Green Tea Face Serum</h3>
-                      <div class="card-price">
-                        ₹100 <span class="card-price-striked">₹100</span>
-                      </div>
-                    </div>
-                    <div class="card-btn">
-                      <div class="button-box">
-                        <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
-                        <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
-                      </div>
-                      <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
-                    </div>
-                  </div> <div class="vertical-card">
-                    <div class="card-img">
-                      <img src="./src/p1.jfif" alt="" />
-                    </div>
-                    <div class="card-text">
-                      <h3 class="card-title">Green Tea Face Serum</h3>
-                      <div class="card-price">
-                        ₹100 <span class="card-price-striked">₹100</span>
-                      </div>
-                    </div>
-                    <div class="card-btn">
-                      <div class="button-box">
-                        <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
-                        <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
-                      </div>
-                      <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
-                    </div>
-                  </div> <div class="vertical-card">
-                    <div class="card-img">
-                      <img src="./src/p1.jfif" alt="" />
-                    </div>
-                    <div class="card-text">
-                      <h3 class="card-title">Green Tea Face Serum</h3>
-                      <div class="card-price">
-                        ₹100 <span class="card-price-striked">₹100</span>
-                      </div>
-                    </div>
-                    <div class="card-btn">
-                      <div class="button-box">
-                        <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
-                        <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
-                      </div>
-                      <a href="" class="btn btn-tertiary-icon card-btn-icon "><i class="fas fa-heart"></i></a>
-                    </div>
-                  </div>
-            </section>
+            </li>
+          </ul>
         </div>
-      
-        <!-- FOOTER -->
-        <footer class=" flex-col footer">
-            <div class="footer__text-box">
-                Made with <span class="color-primary">&lt;/&gt;</span> by Aryan
-                Chaudhary
+        <div class="nav-search">
+          <div class="input-box">
+            <i class="fa fa-search input__box-icon"></i>
+            <input type="text" class="basic-input " placeholder="Input with an icon" />
+          </div>
+
+        </div>
+        <div class="nav-list">
+          <ul class="no-bullets nav-ul">
+            <li class="nav-child">
+
+              <a href="./login.html" class="btn btn-tertiary-icon"> <i class="fas fa-user"></i></a>
+
+            </li>
+            <li class="nav-child">
+
+              <a href="" class="btn btn-tertiary-icon"> <i class="fas fa-heart"></i></a>
+
+            </li>
+            <li class="nav-child">
+
+              <a href="" class="btn btn-tertiary-icon"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-ham">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+
+    </nav>
+    <!-- FILTER BAR -->
+    <div class="flex-row prod-filter-container">
+      <div class="filter-bar">
+        <div class="flex-row filter-header">
+          <h4 class="heading-5 bold-2">Filters</h4>
+          <button class="btn-2 btn-underlined">Clear all</button>
+        </div>
+        <hr>
+        <div class="u-margin-bottom-small"></div>
+
+        <div class="filter-price">
+          <p class="p-md">Price</p>
+          <div class="u-margin-bottom-small"></div>
+          <div class="u-margin-bottom-small"></div>
+
+          <label class="radio-list">One
+            <input type="radio" checked="checked" name="radio">
+            <span class="radio"></span>
+          </label>
+          <label class="radio-list">Two
+            <input type="radio" name="radio">
+            <span class="radio"></span>
+          </label>
+
+        </div>
+        <hr>
+        <div class="u-margin-bottom-small"></div>
+
+        <div class="filter-category">
+          <p class="p-md">Category</p>
+          <div class="u-margin-bottom-small"></div>
+          <div class="u-margin-bottom-small"></div>
+
+          <label class="check-list">Jeans
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-list">Tshirts
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-list">Shirts
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-list">Jackets
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <hr>
+        <div class="u-margin-bottom-small"></div>
+
+        <div class="filter-rating">
+          <p class="p-md">Rating</p>
+          <div class="u-margin-bottom-small"></div>
+          <div class="u-margin-bottom-small"></div>
+
+          <label class="check-list">4 star & above
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-list">3 star & above
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-list">2 star & above
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <label class="check-list">1 star & above
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+      <section class="flex-row product-section ">
+        <div class="vertical-card">
+          <div class="card-img">
+            <img src="./src/p1.jfif" alt="" />
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Green Tea Face Serum</h3>
+            <div class="card-price">
+              ₹100 <span class="card-price-striked">₹100</span>
             </div>
-            <div class="footer__icons-box">
-                <i class="footer__items footer__items-icons fab fa-github"></i>
-                <i class="footer__items footer__items-icons fab fa-twitter"></i>
-                <i class="footer__items footer__items-icons fab fa-linkedin"></i>
+          </div>
+          <div class="card-btn">
+            <div class="button-box">
+              <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
+              <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
             </div>
-            <div class="footer__copyright-box">
-                &copy; 2021 Lunar<span class="color-primary">UI</span>
+            <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="vertical-card">
+          <div class="card-img">
+            <img src="./src/p1.jfif" alt="" />
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Green Tea Face Serum</h3>
+            <div class="card-price">
+              ₹100 <span class="card-price-striked">₹100</span>
             </div>
-        </footer>
+          </div>
+          <div class="card-btn">
+            <div class="button-box">
+              <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
+              <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
+            </div>
+            <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="vertical-card">
+          <div class="card-img">
+            <img src="./src/p1.jfif" alt="" />
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Green Tea Face Serum</h3>
+            <div class="card-price">
+              ₹100 <span class="card-price-striked">₹100</span>
+            </div>
+          </div>
+          <div class="card-btn">
+            <div class="button-box">
+              <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
+              <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
+            </div>
+            <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="vertical-card">
+          <div class="card-img">
+            <img src="./src/p1.jfif" alt="" />
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Green Tea Face Serum</h3>
+            <div class="card-price">
+              ₹100 <span class="card-price-striked">₹100</span>
+            </div>
+          </div>
+          <div class="card-btn">
+            <div class="button-box">
+              <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
+              <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
+            </div>
+            <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="vertical-card">
+          <div class="card-img">
+            <img src="./src/p1.jfif" alt="" />
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Green Tea Face Serum</h3>
+            <div class="card-price">
+              ₹100 <span class="card-price-striked">₹100</span>
+            </div>
+          </div>
+          <div class="card-btn">
+            <div class="button-box">
+              <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
+              <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
+            </div>
+            <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="vertical-card">
+          <div class="card-img">
+            <img src="./src/p1.jfif" alt="" />
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Green Tea Face Serum</h3>
+            <div class="card-price">
+              ₹100 <span class="card-price-striked">₹100</span>
+            </div>
+          </div>
+          <div class="card-btn">
+            <div class="button-box">
+              <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
+              <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
+            </div>
+            <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="vertical-card">
+          <div class="card-img">
+            <img src="./src/p1.jfif" alt="" />
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Green Tea Face Serum</h3>
+            <div class="card-price">
+              ₹100 <span class="card-price-striked">₹100</span>
+            </div>
+          </div>
+          <div class="card-btn">
+            <div class="button-box">
+              <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
+              <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
+            </div>
+            <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="vertical-card">
+          <div class="card-img">
+            <img src="./src/p1.jfif" alt="" />
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Green Tea Face Serum</h3>
+            <div class="card-price">
+              ₹100 <span class="card-price-striked">₹100</span>
+            </div>
+          </div>
+          <div class="card-btn">
+            <div class="button-box">
+              <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
+              <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
+            </div>
+            <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="vertical-card">
+          <div class="card-img">
+            <img src="./src/p1.jfif" alt="" />
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Green Tea Face Serum</h3>
+            <div class="card-price">
+              ₹100 <span class="card-price-striked">₹100</span>
+            </div>
+          </div>
+          <div class="card-btn">
+            <div class="button-box">
+              <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
+              <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
+            </div>
+            <a href="" class="btn btn-tertiary-icon card-btn-icon"><i class="fas fa-heart"></i></a>
+          </div>
+        </div>
+        <div class="vertical-card">
+          <div class="card-img">
+            <img src="./src/p1.jfif" alt="" />
+          </div>
+          <div class="card-text">
+            <h3 class="card-title">Green Tea Face Serum</h3>
+            <div class="card-price">
+              ₹100 <span class="card-price-striked">₹100</span>
+            </div>
+          </div>
+          <div class="card-btn">
+            <div class="button-box">
+              <a href="" class="btn btn-primary btn-sm">ADD TO CART</a>
+              <i class="fa fa-shopping-cart btn-box-icon btn-sm"></i>
+            </div>
+            <a href="" class="btn btn-tertiary-icon card-btn-icon "><i class="fas fa-heart"></i></a>
+          </div>
+        </div>
+      </section>
     </div>
+
+    <!-- FOOTER -->
+    <footer class=" flex-col footer">
+      <div class="footer__text-box">
+        Made with <span class="color-primary">&lt;/&gt;</span> by Aryan
+        Chaudhary
+      </div>
+      <div class="footer__icons-box">
+        <i class="footer__items footer__items-icons fab fa-github"></i>
+        <i class="footer__items footer__items-icons fab fa-twitter"></i>
+        <i class="footer__items footer__items-icons fab fa-linkedin"></i>
+      </div>
+      <div class="footer__copyright-box">
+        &copy; 2021 Lunar<span class="color-primary">UI</span>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
