@@ -11,3 +11,6 @@
 .color-primary {
     color: var(--color-primary);
 }
+.centered{
+    text-align: center;
+}
