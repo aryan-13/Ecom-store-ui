@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://lunar-ui.netlify.app/component.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <title>LunarStore</title>
+</head>
+
+<body>
+    <div class="home-container flex-col">
+        <!-- NAVIGATION BAR -->
+        <nav class="home-nav">
+            <div class="navigation-box">
+                <a href="./index.html">
+                    <div class="logo-box"><span class="logo-primary">Lunar</span> <span
+                            class="color-primary logo-secondary">Store</span></div>
+                </a>
+                <div class="menu-box">
+                    <ul class="menu-list no-bullets ">
+                        <li class="menu-item bold-1">
+                            <a href="./index.html"> Home</a>
+
+                        </li>
+                        <li class="menu-item bold-1">
+                            <a href="./product-listing.html"> Shop</a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-search">
+                    <div class="input-box">
+                        <i class="fa fa-search input__box-icon"></i>
+                        <input type="text" class="basic-input " placeholder="Input with an icon" />
+                    </div>
+
+                </div>
+                <div class="nav-list">
+                    <ul class="no-bullets nav-ul">
+                        <li class="nav-child">
+
+                            <a href="./login.html" class="btn btn-tertiary-icon"> <i class="fas fa-user"></i></a>
+
+                        </li>
+                        <li class="nav-child">
+
+                            <a href="" class="btn btn-tertiary-icon"> <i class="fas fa-heart"></i></a>
+
+                        </li>
+                        <li class="nav-child">
+
+                            <a href="" class="btn btn-tertiary-icon"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-ham">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- Cards -->
+        <section class="cart">
+            <!-- HEADING -->
+            <h3 class="cart-heading heading-4 bold-2 centered"> CART <i
+                    class="color-primary-dark fa fa-shopping-cart"></i> </h3>
+            <!-- MARGINS -->
+            <div class="u-margin-bottom-medium"></div>
+            <div class="u-margin-bottom-small"></div>
+            <!-- WRAPPING CONTAINER FOR CARD AND PRICE DETAILS -->
+            <div class="flex-row wrapper">
+                <div class="flex-col cart-card-box">
+                    <div class=" flex-row product-card ">
+                        <div class="prod-img">
+                            <img src="./src/p1.jfif" alt="" class="responsive-img">
+                        </div>
+                        <div class="prod-card-body flex-col">
+                            <h5 class="heading-5 bold-2">Oversized Tshirt</h5>
+                            <span class="p-md color-primary-dark bold-1" id="price">$20</span>
+                            <div class="flex-row inc-dec">
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <span id="quantity">4</span>
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                            <a href="" class="btn btn-sm btn-primary">Move to Wishlist </a>
+
+                        </div>
+
+                        <a href="" class="btn btn-tertiary-icon" id="close-btn"><i class="fas fa-times"></i></a>
+                    </div>
+                    <div class=" flex-row product-card ">
+                        <div class="prod-img">
+                            <img src="./src/p1.jfif" alt="" class="responsive-img">
+                        </div>
+                        <div class="prod-card-body flex-col">
+                            <h5 class="heading-5 bold-2">Oversized Tshirt</h5>
+                            <span class="p-md color-primary-dark bold-1" id="price">$20</span>
+                            <div class="flex-row inc-dec">
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <span id="quantity">4</span>
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                            <a href="" class="btn btn-sm btn-primary">Move to Wishlist </a>
+
+                        </div>
+
+                        <a href="" class="btn btn-tertiary-icon" id="close-btn"><i class="fas fa-times"></i></a>
+                    </div>
+                    <div class=" flex-row product-card ">
+                        <div class="prod-img">
+                            <img src="./src/p1.jfif" alt="" class="responsive-img">
+                        </div>
+                        <div class="prod-card-body flex-col">
+                            <h5 class="heading-5 bold-2">Oversized Tshirt</h5>
+                            <span class="p-md color-primary-dark bold-1" id="price">$20</span>
+                            <div class="flex-row inc-dec">
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <span id="quantity">4</span>
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                            <a href="" class="btn btn-sm btn-primary">Move to Wishlist </a>
+
+                        </div>
+
+                        <a href="" class="btn btn-tertiary-icon" id="close-btn"><i class="fas fa-times"></i></a>
+                    </div>
+                    <div class=" flex-row product-card ">
+                        <div class="prod-img">
+                            <img src="./src/p1.jfif" alt="" class="responsive-img">
+                        </div>
+                        <div class="prod-card-body flex-col">
+                            <h5 class="heading-5 bold-2">Oversized Tshirt</h5>
+                            <span class="p-md color-primary-dark bold-1" id="price">$20</span>
+                            <div class="flex-row inc-dec">
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <span id="quantity">4</span>
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                            <a href="" class="btn btn-sm btn-primary">Move to Wishlist </a>
+
+                        </div>
+
+                        <a href="" class="btn btn-tertiary-icon" id="close-btn"><i class="fas fa-times"></i></a>
+                    </div>
+                    <div class=" flex-row product-card ">
+                        <div class="prod-img">
+                            <img src="./src/p1.jfif" alt="" class="responsive-img">
+                        </div>
+                        <div class="prod-card-body flex-col">
+                            <h5 class="heading-5 bold-2">Oversized Tshirt</h5>
+                            <span class="p-md color-primary-dark bold-1" id="price">$20</span>
+                            <div class="flex-row inc-dec">
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <span id="quantity">4</span>
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                            <a href="" class="btn btn-sm btn-primary">Move to Wishlist </a>
+
+                        </div>
+
+                        <a href="" class="btn btn-tertiary-icon" id="close-btn"><i class="fas fa-times"></i></a>
+                    </div>
+                    <div class=" flex-row product-card ">
+                        <div class="prod-img">
+                            <img src="./src/p1.jfif" alt="" class="responsive-img">
+                        </div>
+                        <div class="prod-card-body flex-col">
+                            <h5 class="heading-5 bold-2">Oversized Tshirt</h5>
+                            <span class="p-md color-primary-dark bold-1" id="price">$20</span>
+                            <div class="flex-row inc-dec">
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <span id="quantity">4</span>
+
+                                <button class="btn-icon-secondary">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                            <a href="" class="btn btn-sm btn-primary">Move to Wishlist </a>
+
+                        </div>
+
+                        <a href="" class="btn btn-tertiary-icon" id="close-btn"><i class="fas fa-times"></i></a>
+                    </div>
+                </div>
+                <div class="flex-col cart-total ">
+                    <div class="flex-col cart-total-heading">
+                        <h1 class="heading-5">Price Details</h1>
+
+                        <div class="flex-row cart-total-items ">
+                            <p class="p-sm">Total Price:</p>
+                            <span class="p-sm">$20</span>
+                        </div>
+                        <div class="flex-row cart-total-items">
+                            <p class="p-sm">Discount:</p>
+                            <span class="p-sm">$4</span>
+                        </div>
+                        <div class="flex-row cart-total-items">
+                            <p class="p-sm">Delivery Charges:</p>
+                            <span class="p-sm">$2</span>
+                        </div>
+                        <div class="flex-row cart-total-items">
+                            <p class="p-md bold-1">Total Price:</p>
+                            <span class="color-primary p-md bold-1">$18</span>
+
+                        </div>
+                        <a href="" class="btn btn-sm btn-primary">Place Order </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- Total -->
+
+        <!-- FOOTER -->
+        <footer class=" flex-col footer">
+            <div class="footer__text-box">
+                Made with <span class="color-primary">&lt;/&gt;</span> by Aryan
+                Chaudhary
+            </div>
+            <div class="footer__icons-box">
+                <a target="blank" href="https://github.com/aryan-13/Ecom-store-ui">
+                    <i class="footer__items footer__items-icons fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/AryannnC" target="blank">
+                    <i class="footer__items footer__items-icons fab fa-twitter"></i>
+                </a>
+                <a target="blank" href="https://www.linkedin.com/in/aryan-chaudhary/">
+                    <i class="footer__items footer__items-icons fab fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="footer__copyright-box">
+                &copy; 2021 Lunar<span class="color-primary">UI</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
