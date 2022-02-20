@@ -3,8 +3,8 @@
 
 :root {
 
-	--color-primary-light: #7ed56f;
-	--color-primary: #55c57a;
+	--color-primary-light: #25954E;
+	--color-primary: #25954E;
 	--color-primary-dark: #28b485;
 
 	--color-red: #fed7d7;
@@ -38,7 +38,7 @@
 	--color-white: #fff;
 	--color-black: #2f2e41;
 
-	/*  */
+	/* Sizes */
 	--size-1: 1rem;
 	--size-2: 2rem;
 	--size-3: 3rem;
