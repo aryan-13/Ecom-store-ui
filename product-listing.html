@@ -117,22 +117,17 @@
           <div class="u-margin-bottom-small"></div>
           <div class="u-margin-bottom-small"></div>
 
-          <label class="check-list">4 star & above
-            <input type="checkbox" checked="checked">
-            <span class="checkmark"></span>
-          </label>
-          <label class="check-list">3 star & above
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-          <label class="check-list">2 star & above
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-          <label class="check-list">1 star & above
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
+          <div class="slider-container">
+            <input type="range" list="tickmarks" min="10" max="50" step="10" class="slider">
+            <datalist id="tickmarks">
+              <option value="10"></option>
+              <option value="20"></option>
+              <option value="30"></option>
+              <option value="40"></option>
+              <option value="50"></option>
+            </datalist>
+          </div>
+          
         </div>
       </div>
       <section class="flex-row product-section ">
